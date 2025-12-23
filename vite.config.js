@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "/my-project/",  // حط هنا اسم الريبو مع الشرطة في الأول والأخر
+   base: "/Yousef-Farouk-2/",   // حط هنا اسم الريبو مع الشرطة في الأول والأخر
   optimizeDeps: {
     include: ["ogl"],
   },
