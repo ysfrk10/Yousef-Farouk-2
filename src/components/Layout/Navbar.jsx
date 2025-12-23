@@ -45,7 +45,7 @@ const AppNavbar = () => {
               <a
                 href="/"
               >
-                <img src="public/assets/Y.png" alt="Logo" 
+                <img src="/assets/Y.png" alt="Logo" 
                 className="w-20 bg-[#4a48c1] rounded-[50px]
                  dark:bg-transparent" />
              </a>
@@ -77,11 +77,11 @@ const AppNavbar = () => {
               <a
                 href="/"
               >
-                <img src="/src/assets/Y.png" alt="Logo" 
+                <img src="/assets/Y.png" alt="Logo" 
                 className="w-15 bg-[#4a48c1] rounded-[50px]
                  dark:bg-transparent" />
              </a>
-            
+
         <ThemeToggle />
       </div>
 

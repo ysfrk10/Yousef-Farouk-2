@@ -35,7 +35,7 @@ const About = () => {
                 <div className="flex flex-col items-center pb-10 pt-10 px-4">
                   <div className="w-[60%] h-[60%] mb-3 rounded-full shadow-lg overflow-hidden bg-gray-200">
                     <img
-                      src="public/assets/profile.jpg"
+                      src="/assets/profile.jpg"
                       alt="Profile"
                       className="w-full h-full object-cover"
                     />
