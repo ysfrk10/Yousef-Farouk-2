@@ -76,7 +76,7 @@ const Contact = () => {
           {/* Contact Form */}
           {/* image */}
     <div>
-      <img src="/public/assets/contact.jpg" alt="Contact" 
+      <img src="public/assets/contact.jpg" alt="Contact" 
       className="w-[400px] rounded-lg" />
     </div>
           {/* <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-700">
