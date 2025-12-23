@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+* {
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .animate-scrollP {
+    animation: scrollP 30s linear infinite alternate ;
+    -webkit-animation: scrollP 30s linear infinite alternate ;
+}
+  .animate-scrollS {
+    animation: scrollS 5s linear infinite alternate ;
+    -webkit-animation: scrollS 5s linear infinite alternate ;
+}
+
+
+  .animate-scrollP:hover,
+  .animate-scrollP:focus-within {
+    animation-play-state: paused;
+  }
+  .animate-scrollS:hover,
+  .animate-scrollS:focus-within {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes scrollP {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes scrollS {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
