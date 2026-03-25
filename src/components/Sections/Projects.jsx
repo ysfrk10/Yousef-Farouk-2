@@ -3,59 +3,64 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Dashboard",
+      title: "E-Commerce Vanilla JS",
       description:
-        "A comprehensive dashboard for managing products, orders, and customers with real-time data visualization.",
+        "Modern e-commerce UI with product listing and filtering Integrated REST APIs for dynamic product data and real-time updates using Local Storage Smooth navigation",
       image: "https://flowbite.com/docs/images/blog/image-1.jpg",
-      tech: ["React", "Tailwind CSS", "Recharts"],
-      github: "#",
-      demo: "#",
+      tech: ["Html", "Tailwind CSS", "Js"],
+      github: "https://github.com/ysfrk10/E-Commerce-vanilla-js",
+      demo: "https://ysfrk10.github.io/E-Commerce-vanilla-js/",
     },
     {
-      title: "Task Management App",
+      title: "DasHBoard UI",
       description:
-        "A drag-and-drop task manager inspired by Kanban boards, featuring local storage persistence.",
+        "Responsive dashboard UI with modern layout and reusable components,Full dark-mode support with seamless theme switching ,Built with RTL-friendly design for a smooth Arabic user experience,Built with RTL-friendly design for a smooth Arabic user experience.",
       image: "https://flowbite.com/docs/images/blog/image-2.jpg",
-      tech: ["React", "DnD Kit", "Flowbite"],
-      github: "#",
-      demo: "#",
+      tech: [
+        "React",
+        "Tailwind CSS",
+        "Dark Mode",
+        "Arabic Interface",
+        "Flowbite",
+      ],
+      github: "https://github.com/ysfrk10/DashBoard",
+      demo: "https://dashboardui515155.netlify.app/",
     },
     {
-      title: "Weather Forecast",
-      description:
-        "Minimalist weather application providing accurate forecasts using the OpenWeatherMap API.",
+      title: "Crypto-Currancy Website.",
+      description: "Responsive Design Using Html,Css Only.",
       image: "https://flowbite.com/docs/images/blog/image-3.jpg",
-      tech: ["React", "API Integration", "Chart.js"],
-      github: "#",
-      demo: "#",
+      tech: ["HTML", "CSS`"],
+      github: "https://github.com/ysfrk10/Crypto-Currency",
+      demo: "https://effulgent-salamander-99f51a.netlify.app/",
     },
-    {
-      title: "Social Media Clone",
-      description:
-        "A responsive social media feed with infinite scroll, like functionality, and dark mode support.",
-      image: "https://flowbite.com/docs/images/blog/image-4.jpg",
-      tech: ["Next.js", "Tailwind", "Framer Motion"],
-      github: "#",
-      demo: "#",
-    },
+    // {
+    //   title: "Social Media Clone",
+    //   description:
+    //     "A responsive social media feed with infinite scroll, like functionality, and dark mode support.",
+    //   image: "https://flowbite.com/docs/images/blog/image-4.jpg",
+    //   tech: ["Next.js", "Tailwind", "Framer Motion"],
+    //   github: "#",
+    //   demo: "#",
+    // },
     {
       title: "Portfolio Website",
       description:
         "My personal portfolio website (this one!) built to showcase my skills and projects.",
       image: "https://flowbite.com/docs/images/blog/image-1.jpg", // Placeholder
       tech: ["React", "Vite", "Flowbite"],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/ysfrk10/Yousef-Farouk-2",
+      demo: "https://ysfrk10.github.io/Yousef-Farouk-2/",
     },
-    {
-      title: "Chat Application",
-      description:
-        "Real-time chat application with room support and message history.",
-      image: "https://flowbite.com/docs/images/blog/image-2.jpg",
-      tech: ["Firebase", "React", "Context API"],
-      github: "#",
-      demo: "#",
-    },
+    // {
+    //   title: "Chat Application",
+    //   description:
+    //     "Real-time chat application with room support and message history.",
+    //   image: "https://flowbite.com/docs/images/blog/image-2.jpg",
+    //   tech: ["Firebase", "React", "Context API"],
+    //   github: "#",
+    //   demo: "#",
+    // },
   ];
 
   return (
@@ -125,6 +130,7 @@ const Projects = () => {
                     <div className="flex gap-4 mt-auto">
                       <a
                         href={project.github}
+                        target="_blank"
                         className="flex-1 inline-flex items-center justify-center px-3
                         py-2 text-sm font-medium text-center border rounded-lg 
                           focus:ring-4 focus:outline-none bg-gray-800 
@@ -136,6 +142,7 @@ const Projects = () => {
                       </a>
                       <a
                         href={project.demo}
+                        target="_blank"
                         className="flex-1
                          inline-flex items-center
                           justify-center px-3 py-2 text-sm font-medium 
