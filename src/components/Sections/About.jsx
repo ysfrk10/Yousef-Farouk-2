@@ -38,7 +38,7 @@ const About = () => {
                 <div className="flex flex-col items-center pb-10 pt-10 px-4">
                   <div className="w-[60%] h-[60%] mb-3 rounded-full shadow-lg overflow-hidden bg-gray-200">
                     <img
-                      src={`${import.meta.env.BASE_URL}profile.jpg`}
+                      src={`${import.meta.env.BASE_URL}Myprofile.jpg`}
                       alt="Profile"
                       className="w-full h-full object-cover"
                     />
