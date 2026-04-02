@@ -18,13 +18,16 @@ const About = () => {
               Passionate about creating digital experiences
             </h3>
             <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-6">
-             I’m a Frontend Developer focused on building responsive, high-performance web applications with clean and maintainable code. 
+              I’m a Frontend Developer focused on building responsive,
+              high-performance web applications with clean and maintainable
+              code.
             </p>
             <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-6">
-             I specialize in React and modern JavaScript, turning complex requirements into intuitive and visually appealing user interfaces. I care deeply about performance, scalability, and user experience.
+              I specialize in React and modern JavaScript, turning complex
+              requirements into intuitive and visually appealing user
+              interfaces. I care deeply about performance, scalability, and user
+              experience.
             </p>
-
-           
           </div>
 
           <div className="order-1 md:order-2 flex justify-center">
@@ -35,7 +38,7 @@ const About = () => {
                 <div className="flex flex-col items-center pb-10 pt-10 px-4">
                   <div className="w-[60%] h-[60%] mb-3 rounded-full shadow-lg overflow-hidden bg-gray-200">
                     <img
-                      src="/assets/profile.jpg"
+                      src={`${import.meta.env.BASE_URL}profile.jpg`}
                       alt="Profile"
                       className="w-full h-full object-cover"
                     />
